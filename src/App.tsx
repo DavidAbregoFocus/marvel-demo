@@ -1,8 +1,8 @@
-import './App.css';
+import './styles.css';
 import { useEffect, useState } from 'react';
 import apiServices from './services/ApiService';
-import { Comic } from './utils/interfaces';
 import { getDateStandard } from './utils/helpers';
+import { Comic } from './utils/interfaces';
 
 export default function App() {
     const [comics, setComics] = useState<Array<Comic>>([]);
